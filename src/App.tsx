@@ -93,7 +93,7 @@ function App() {
             }
           />
           <Route
-            path="posting/:id" // Route to view recipe details
+            path="postings/:id" // Route to view recipe details
             element={
               <PrivateRoute>
                 <PostingDetail />
