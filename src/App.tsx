@@ -85,7 +85,7 @@ function App() {
             }
           />
           <Route
-            path="add-recipe" // Route to add a new recipe
+            path="add-posting" // Route to add a new recipe
             element={
               <PrivateRoute>
                 <AddPosting />
@@ -93,7 +93,7 @@ function App() {
             }
           />
           <Route
-            path="recipes/:id" // Route to view recipe details
+            path="posting/:id" // Route to view recipe details
             element={
               <PrivateRoute>
                 <PostingDetail />
@@ -101,7 +101,7 @@ function App() {
             }
           />
           <Route
-            path="recipes/edit/:id" // Route to edit a recipe
+            path="posting/edit/:id" // Route to edit a recipe
             element={
               <PrivateRoute>
                 <EditPosting />
