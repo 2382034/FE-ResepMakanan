@@ -101,7 +101,7 @@ function App() {
             }
           />
           <Route
-            path="posting/edit/:id" // Route to edit a recipe
+            path="postings/edit/:id" // Route to edit a recipe
             element={
               <PrivateRoute>
                 <EditPosting />
